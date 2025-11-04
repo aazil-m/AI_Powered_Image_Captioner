@@ -2,8 +2,8 @@ import { NextResponse, type NextRequest } from "next/server";
 
 // Using a placeholder for the API key here. In a real-world scenario, you would
 // configure this in your environment variables.
-const API_KEY = "AIzaSyD1GJE5qj9izsqOC93UmrtAcEo7yMh83Kw"; // Replaced with a placeholder
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${API_KEY}`;
+const API_KEY = "KEY"; // Replaced with a placeholder
+const API_URL = `URL`;
 const TIMEOUT_MS = 60_000;
 
 export async function POST(request: NextRequest) {
