@@ -1,0 +1,4 @@
+{
+  "/api/generate-caption/route": "app/api/generate-caption/route.js",
+  "/page": "app/page.js"
+}
