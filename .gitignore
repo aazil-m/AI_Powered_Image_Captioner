@@ -1,11 +1,15 @@
 ﻿# Secrets
 .env
 .env.local
+.env.*
 *.env
 key.txt
 
-# Environments & deps
-.venv/
+# Builds / deps
+.next/
 node_modules/
 dist/
 build/
+.venv/
+__pycache__/
+*.log
